@@ -1,0 +1,59 @@
+db:
+  host: "localhost"
+  port: "3306"
+  name: "database"
+  user: "root"
+  password: "1234567"
+
+trails:
+  clouds:
+    min: 5
+    max: 10
+  smoke:
+    min: 8
+    max: 14
+  fire:
+    min: 2
+    max: 6
+  fire2:
+    min: 2
+    max: 6
+  ender:
+    min: 90
+    max: 160
+  disco:
+    min: 2
+    max: 8
+  blood:
+    min: 2
+    max: 8
+  crit:
+    min: 4
+    max: 7
+  magma:
+    min: 2
+    max: 6
+  letter:
+    min: 9
+    max: 16
+  happy:
+    min: 4
+    max: 12
+  anger:
+    min: 2
+    max: 5
+  music:
+    min: 3
+    max: 6
+  magic:
+    min: 4
+    max: 7
+  sweat:
+    min: 4
+    max: 8
+  spark:
+    min: 4
+    max: 7
+  crumb:
+    min: 4
+    max: 8

@@ -1,0 +1,67 @@
+name: zxTrailEffects
+version: 1.0
+main: ru.xapple.zxtraileffects.Main
+api-version: 1.16
+authors: [ Error202 ]
+description: Player trail effects
+website: https://kano3.ru
+commands:
+  trail:
+    description: Base command for all trail effects
+    aliases:
+      - trails
+permissions:
+  zxtraileffects.all:
+    children:
+      zxtraileffects.use.*: true
+      zxtraileffects.other.*: true
+      zxtraileffects.multi: true
+
+  zxtraileffects.use.*:
+    children:
+      zxtraileffects.use.fire: true
+      zxtraileffects.use.smoke: true
+      zxtraileffects.use.ender: true
+      zxtraileffects.use.hearts: true
+      zxtraileffects.use.crit: true
+      zxtraileffects.use.sweat: true
+      zxtraileffects.use.flowers: true
+      zxtraileffects.use.loot: true
+      zxtraileffects.use.stars: true
+      zxtraileffects.use.disco: true
+      zxtraileffects.use.blood: true
+      zxtraileffects.use.magma: true
+      zxtraileffects.use.breadcrumb: true
+      zxtraileffects.use.letters: true
+      zxtraileffects.use.sparks: true
+      zxtraileffects.use.magic: true
+      zxtraileffects.use.happy: true
+      zxtraileffects.use.music: true
+      zxtraileffects.use.anger: true
+      zxtraileffects.use.clouds: true
+      zxtraileffects.use.off: true
+  zxtraileffects.multi:
+    default: false
+  zxtraileffects.other.*:
+    children:
+      zxtraileffects.other.fire: true
+      zxtraileffects.other.smoke: true
+      zxtraileffects.other.ender: true
+      zxtraileffects.other.hearts: true
+      zxtraileffects.other.sweat: true
+      zxtraileffects.other.crit: true
+      zxtraileffects.other.flower: true
+      zxtraileffects.other.loot: true
+      zxtraileffects.other.stars: true
+      zxtraileffects.other.disco: true
+      zxtraileffects.other.blood: true
+      zxtraileffects.other.magma: true
+      zxtraileffects.other.breadcrumb: true
+      zxtraileffects.other.letters: true
+      zxtraileffects.other.spark: true
+      zxtraileffects.other.notes: true
+      zxtraileffects.other.magic: true
+      zxtraileffects.other.happy: true
+      zxtraileffects.other.clouds: true
+      zxtraileffects.other.anger: true
+      zxtraileffects.other.off: true
